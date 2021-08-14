@@ -1,0 +1,17 @@
+{
+  "name": "xmusicserver",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "ytdl-core": "^4.9.1"
+  }
+}

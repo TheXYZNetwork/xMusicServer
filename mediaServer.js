@@ -1,6 +1,7 @@
 const Stream = require('stream')
 var stream;
-var listeners = []
+var listeners = [];
+
 module.exports = function(app) {
   app.keepAliveTimeout = 30 * 1000;
   app.get('/stream', function(req, res, next) {
